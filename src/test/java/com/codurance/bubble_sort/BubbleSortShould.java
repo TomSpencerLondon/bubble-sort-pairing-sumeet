@@ -6,6 +6,8 @@ import org.junit.jupiter.params.provider.MethodSource;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class BubbleSortShould {
+  // 1 iteration O(n)
+  // Worst: O(n^2)
   @ParameterizedTest
   @MethodSource("numbers")
   void sorts_the_array(int[] input, int[] output) {
