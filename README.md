@@ -1,1 +1,1 @@
-# bubble-sort-pairing-sumeet
+# bubble-sort-pairing-with-sumeet
